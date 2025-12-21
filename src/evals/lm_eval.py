@@ -1,7 +1,7 @@
 import logging
 from omegaconf import OmegaConf
 
-from lm_eval.models.hf_vlms import HFLM
+from lm_eval.models.huggingface import HFLM
 from lm_eval.tasks import TaskManager
 from lm_eval import simple_evaluate
 
